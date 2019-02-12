@@ -8,6 +8,10 @@ const path = require('path');
 //Rutas
 router.get('/', (req,res)=>{
     res.render('index',{title:'BeitLab'});
+});
+
+router.get('/IA', (req,res)=>{
+    res.render('IA',{title:'IA BeitLab'});
 })
 
 router.get('/:otro',(req,res)=>{
